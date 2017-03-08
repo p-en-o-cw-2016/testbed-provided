@@ -9,7 +9,7 @@ Running this testbed requires downloading some additional software:
  - [QuickHull3D](https://www.cs.ubc.ca/~lloyd/java/lib/quickhull3d.jar)
 	- `quickhull3d.jar`
 
-To run the program, make sure the classpath includes every `.jar` you downloaded. Additionally, you should link the native library's parent directory using the `java.library.path` option. For example, assuming all files reside in the same directory, you should use:
+To run the program, make sure it's parent directory includes every `.jar` you downloaded. Additionally, you should link the native library's parent directory using the `java.library.path` option. For example, assuming all files reside in the same directory, you should use:
 
 `java -Djava.library.path=. -jar peno.jar`
 
