@@ -19,4 +19,4 @@ Running the testbed will spawn a file-selection screen. Select a world descripti
 Loading a new while there is a drone in the simulator will keep the drone in the previous world. Reconnect the autopilot in this case.
 
 # Remarks
-As this is the first version of our testbed it could contain some mistakes. Please report all your issues on the wiki.
+As this is the first version of our testbed it could contain some mistakes. Please report all your issues via the Issues tab of this website.
