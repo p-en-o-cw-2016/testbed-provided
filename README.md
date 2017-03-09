@@ -14,9 +14,9 @@ To run the program, make sure it's parent directory includes every `.jar` you do
 	`java -Djava.library.path=. -jar peno.jar`
 
 # Using the software
-Running the testbed will spawn a file-selection screen. Select a world description file (cancel the selection will load an empty world). To move around in the world click on the camvas in the testbed and use the ¨WASD¨ keys and the arrows to rotate in the world. Add your autopilot by connecting to `localhost:8000` using the wire protocol. Click the buttons in the GUI to start or pause the simulation.
+Running the testbed will spawn a file-selection screen. Select a world description file (cancel the selection will load an empty world). To move around in the world click on the canvas in the testbed and use the ¨WASD¨ keys and the arrows to rotate in the world. Add your autopilot by connecting to `localhost:8000` using the wire protocol. Click the buttons in the GUI to start or pause the simulation.
 
-Loading a new while there is a drone in the simulator will keep the drone in the previous world. Reconnect the autopilot in this case.
+Loading a new file while there is a drone in the simulator will keep the drone in the previous world. Reconnect the autopilot in this case.
 
 # Remarks
 As this is the first version of our testbed it could contain some mistakes. Please report all your issues via the Issues tab of this website.
